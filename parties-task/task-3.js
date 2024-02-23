@@ -27,3 +27,6 @@ let data2 = {
 const value =data2.data[0].bookDetails.name;
 console.log(value);
 
+
+
+// 1. you have an odd array (array wih odd numbers).[1, 3, 5, 7, 9].Now this array into an en=ven array (array eith even numbers ). [2, 4, 6, 8 ,10].Do using for loop and array Map() method 
