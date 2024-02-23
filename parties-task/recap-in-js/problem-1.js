@@ -3,7 +3,9 @@
 // 2.funcation no return
 // 3.parameter that is not passed will be undefined
 // 4.If return has nothing on the right side will return undefined.
-// 5.property that doesn't exists on an object will give you undefined
+// 5.property that doesn't exists on an object will give you undefined.
+// 6.accessing array elements outside of the index range
+// 7.
 let first;
 
 function second(a, b) {
@@ -33,4 +35,5 @@ const fifth = { id: 2, name: "ponshom", age: 40 };
 console.log(fifth.age, fifth.salery);
 
 const sixth = [4, 89, 87, 56, 54];
+delete sixth[1];
 console.log(sixth[1],sixth[5], sixth[200]);
